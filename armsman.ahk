@@ -1,5 +1,4 @@
-﻿poisons:=1 ;must be very top of script
-#IfWinActive ahk_class DAoCMWC
+﻿#IfWinActive ahk_class DAoCMWC
 ;========stops script so you can type normal============
 ; toggle chat
 ~+Enter::
@@ -22,18 +21,18 @@ Suspend, Off
 ToolTip, 
 return
 ;=================================
-~1::
-Send, {f3} {f2} {f1}
-return
-
 ~2::
-Send, {f9} {f7} {f8} {f6}
+Send, {f9} {f2} {f3}
 return
 
-~q::
-Send, {f4} {f5}
+~3::
+Send, {f9} {f3} {f2} 
 return
 
-~e::
-Send, {home} {end}
+~4::
+Send, {f9} {f3} {1}
+return
+
+~5::
+Send, {f8} {9}
 return
