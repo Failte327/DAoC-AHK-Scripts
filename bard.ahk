@@ -23,17 +23,29 @@ ToolTip,
 return
 ;=================================
 ~1::
-Send, {f3} {f2} {f1}
+Send, {1} {f1}
 return
 
 ~2::
-Send, {f5} {f4}
+Send, {2} {f2}
 return
 
 ~3::
-Send, {home} {f1}
+Send, {3} {f3}
 return
 
-~-::
-Send, {end} {8} {f6} {f7} {f8} {f9} {f10}
+~4::
+Send, {4} {f4}
+return
+
+~5::
+Send, {5} {f5}
+return
+
+~6::
+Send, {6} {f6}
+return
+
+~7::
+Send, {7} {f7}
 return

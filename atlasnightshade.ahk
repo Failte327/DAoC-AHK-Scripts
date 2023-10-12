@@ -1,4 +1,5 @@
-﻿#IfWinActive ahk_class DAoCMWC
+﻿poisons:=1 ;must be very top of script
+#IfWinActive ahk_class DAoCMWC
 ;========stops script so you can type normal============
 ; toggle chat
 ~+Enter::
@@ -30,10 +31,10 @@ return
 Send, {f5} {f4}
 return
 
-~3::
-Send, {home} {f1}
+~5::
+Send, {f7} {f6} 
 return
 
-~-::
-Send, {end} {8} {f6} {f7} {f8} {f9} {f10}
+~q::
+Send, {h} {y}
 return

@@ -1,5 +1,4 @@
-﻿poisons:=1 ;must be very top of script
-#IfWinActive ahk_class DAoCMWC
+﻿#IfWinActive ahk_class DAoCMWC
 ;========stops script so you can type normal============
 ; toggle chat
 ~+Enter::
@@ -12,6 +11,7 @@ return
 ;depending on your native language you may have others you need to add or remove
 ~/::  ; hardcoded
 ~'::  ; hardcoded
+~r::  ; reply key CHANGE THIS TO YOUR REPLY KEY
 Suspend, On
 ToolTip, "Script Suspended"
 return
@@ -23,17 +23,33 @@ ToolTip,
 return
 ;=================================
 ~1::
-Send, {f3} {f2} {f1}
+Send, {1} {f1}
 return
 
 ~2::
-Send, {f9} {f7} {f8} {f6}
+Send, {2} {f2}
 return
 
-~q::
-Send, {f4} {f5}
+~3::
+Send, {3} {f3}
 return
 
-~e::
-Send, {home} {end}
+~4::
+Send, {4} {f4}
+return
+
+~5::
+Send, {5} {f5}
+return
+
+~6::
+Send, {6} {f6}
+return
+
+~7::
+Send, {7} {f7}
+return
+
+~8::
+Send, {8} {f8}
 return

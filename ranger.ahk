@@ -1,5 +1,4 @@
-﻿#IfWinActive ahk_class DAoCMWC
-;========stops script so you can type normal============
+﻿;========stops script so you can type normal============
 ; toggle chat
 ~+Enter::
 ~Enter::
@@ -23,14 +22,17 @@ ToolTip,
 return
 ;=================================
 ~1::
-Send, {f5} {f3} {f1}
+Send, {f7} {f4} {f1}
 return
 
 ~2::
-Send, {f4} {f2} {f3} {f1}
+Send, {f2} {f1}
 return
 
+~3::
+Send, {f3} {f5}
+return
 
-~6::
-Send, {f6}
+~4::
+Send, {f6} {f1}
 return

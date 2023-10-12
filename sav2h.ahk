@@ -31,9 +31,13 @@ Send, {f5} {f4}
 return
 
 ~3::
-Send, {home} {f1}
+Send, {f6} {f1}
 return
 
-~-::
-Send, {end} {8} {f6} {f7} {f8} {f9} {f10}
+~4::
+Send, {6} {f1}
+return
+
+~5::
+Send, {f10} {f9} {f8} {f7}
 return
