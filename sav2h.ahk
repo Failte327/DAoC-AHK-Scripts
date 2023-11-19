@@ -39,5 +39,5 @@ Send, {6} {f1}
 return
 
 ~5::
-Send, {f10} {f9} {f8} {f7}
+Send, {f7} {f8} {f9} {f10}
 return

@@ -57,3 +57,7 @@ return
 ~9::
 Send, {9} {f9}
 return
+
+~0::
+Send, {0} {f10}
+return

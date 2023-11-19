@@ -38,18 +38,6 @@ return
 Send, {4} {f4}
 return
 
-~5::
-Send, {5} {f5}
-return
-
-~6::
-Send, {6} {f6}
-return
-
-~7::
-Send, {7} {f7}
-return
-
-~8::
-Send, {8} {f8}
+~e::
+Send, {f5} {f6} {f7} {f8}
 return
