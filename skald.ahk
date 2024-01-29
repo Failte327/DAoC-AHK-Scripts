@@ -34,10 +34,6 @@ return
 Send, {f6} {f1}
 return
 
-~4::
-Send, {q} {[}
-return
-
-~-::
-Send, {7} {8} {9} {0} {f7} {f8} {f9} {f10}
+~q::
+Send, {8} {9} {0} {f7} {f8} {f9} {f10}
 return

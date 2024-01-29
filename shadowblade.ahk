@@ -1,7 +1,4 @@
-﻿#IfWinActive ahk_class DAoCMWC
-;========stops script so you can type normal============
-; toggle chat
-~+Enter::
+﻿~+Enter::
 ~Enter::
 Suspend, Toggle
 ToolTip, % A_IsSuspended ? "Script Suspended" : ""
@@ -27,9 +24,17 @@ Send, {f3} {f2} {f1}
 return
 
 ~2::
-Send, {f5} {f4} {f6}
+Send, {f4} {f1}
 return
 
-~0::
-Send, {f8} {f9} {f10}
+~3::
+Send, {f5} {f4} {f1}
+return
+
+~e::
+Send, {7} {8}
+return
+
+~q::
+Send, {9} {0}
 return

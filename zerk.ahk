@@ -24,9 +24,9 @@ Send, {f3} {f2} {f1}
 return
 
 ~2::
-Send, {f6} {f5} {f1}
+Send, {f4} {f1}
 return
 
 ~3::
-Send, {f4} {f1}
+Send, {f5} {f4} {f1}
 return

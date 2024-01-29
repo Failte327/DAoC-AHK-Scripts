@@ -49,11 +49,3 @@ return
 ~7::
 Send, {7} {f7}
 return
-
-~8::
-Send, {8} {f8}
-return
-
-~9::
-Send, {9} {f9}
-return
